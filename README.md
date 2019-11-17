@@ -2,7 +2,7 @@
 User Interface For www.ls-sw.net 
 Made with Bulma (Bulma.io)
 
-##Colors
+## Colors
 ![LSSW Login Page](https://i.imgur.com/faopGZQ.png "Color Scheme")
 
 ## Login Page
