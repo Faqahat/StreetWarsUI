@@ -1,0 +1,158 @@
+/* 
+
+    Stylesheet by Faqahat (https://faqahat.com) 
+    Can only Be used with Bulma (Bulma.io)
+*/
+
+.title
+{
+    font-family: "chalet-thin", "open-sans";
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-style: normal;
+    font-size: 64px;
+    color: black;
+}
+
+.loginButton 
+{
+    background-image: url('../img/icons/right-small-arrow.png'), linear-gradient(to right, black 70%, #463152 30%) ;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: center; 
+    font-family: "chalet-regular", "open-sans";
+    border-radius:20px;
+    letter-spacing: 0.06em;
+    width: 170px;
+    height:60px;
+    font-size:28px;
+    font-weight: 400;
+    font-style: normal;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    padding-top: 08px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    text-decoration:none;
+    margin-top: 35px;
+}
+
+.loginButton:hover 
+{
+    color:#b386ce;
+}
+
+.back-arrow 
+{
+    background-image: url("../img/icons/back-big-arrow.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    min-height: 70px;
+    min-width: 70px;
+    margin-top:30%;
+
+    margin-right: 30%;
+    float:right;
+}
+
+.reset-password 
+{
+    margin-top: 40px;
+    padding-left: 30px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    color:#463152;
+    background-image: url("../img/icons/reset.png");
+
+}
+
+.bg
+{
+    
+    background-image: url("../img/login_bg.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-color: #463152;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.content-area
+{
+    min-width: 100%;
+    min-height: 500px;
+    display:grid;
+    overflow: hidden;
+    border-radius:.125rem;
+    background-image: url("../img/abvg.png"),linear-gradient(to top, white 98.5%, #463152 1.5%);
+    background-size: 400px,100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+}
+.black-section 
+{
+    background: linear-gradient(to top, black 98.5%, #463152 1.5%);
+    min-width: 250px;
+    min-height: 100%;
+
+}
+@media  (min-width: 600px)
+{
+    .black-section 
+    {
+        min-width: 250px;
+        min-height: 100%;
+
+    }
+}
+
+.alert-box 
+{
+    border-style: solid;
+    min-height: 50px;
+    border-width: 1px 1px 1px 0px;
+    border-bottom: 1px solid #707070;
+    border-color: #707070;
+    background-image: url('../img/alert-shield.png'), linear-gradient(to left, white 98%, #CF9800 2%);
+    background-repeat: no-repeat;
+    background-position: center right , center center;
+    background-size:contain;
+    width: 100%;
+    padding: 20px 20px 20px 30px;
+    margin-top: 30px;
+}
+
+.center
+{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_input
+{
+    padding: 12px 20px;
+    background: transparent;
+    background-image: url('../img//icons/user.png');
+    background-position: 0px 10px;
+    background-size: 34px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 0.5px solid black;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 500px;
+}
+
+.login_input_password
+{
+    background-image: url('../img/icons/password-lock.png');
+    background-size: 34px;
+}

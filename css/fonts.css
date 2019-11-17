@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "sign";
+    src: url("../fonts/aign.woff") format('woff');
+}
+@font-face {
+    font-family: "chalet-regular";
+    src: url("../fonts/ChaletParisNineteenSixty.woff") format('woff');
+
+}
+@font-face {
+    font-family: "chalet-bold";
+    src: url("../fonts/ChaletNewYorkNineteenEighty.woff") format('woff');
+}
+@font-face {
+    font-family: "chalet-thin2";
+    src: url("../fonts/ChaletParisNineteenEighty.woff") format('woff');
+}
+@font-face {
+    font-family: "chalet-thin";
+    src: url("../fonts/ChaletParisNineteenSeventy.woff") format('woff');
+}
